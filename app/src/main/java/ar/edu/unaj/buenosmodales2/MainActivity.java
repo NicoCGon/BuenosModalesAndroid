@@ -1,15 +1,12 @@
-package ar.edu.unaj.apm;
-
-import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+package ar.edu.unaj.buenosmodales2;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import android.view.View;
-
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
@@ -31,13 +28,6 @@ public class MainActivity extends AppCompatActivity {
         //Registro listener en cada boton
         gracias.setOnClickListener(graciasListener);
         estornudar.setOnClickListener(estornudarListener);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
     }
 
     //GraciasListener

@@ -1,4 +1,4 @@
-package ar.edu.unaj.apm;
+package ar.edu.unaj.buenosmodales2;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ar.edu.unaj.apm", appContext.getPackageName());
+        assertEquals("ar.edu.unaj.buenosmodales2", appContext.getPackageName());
     }
 }

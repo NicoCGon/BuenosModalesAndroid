@@ -1,4 +1,4 @@
-package ar.edu.unaj.apm;
+package ar.edu.unaj.buenosmodales2;
 
 import org.junit.Test;
 
